@@ -189,7 +189,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 .last-section{
     display: flex;
     justify-content: space-between;
@@ -215,7 +214,6 @@ body {
     row-gap: 10px;
 }
 
-=======
 /*landing page css*/
 .landing-page {
   display: flex;
@@ -419,4 +417,3 @@ body {
   height: 40vh;
   text-align: center;
 }
->>>>>>> Ghita
