@@ -26,6 +26,7 @@ body {
 .navbar .right{
     display: flex;
     column-gap: 30px;
+    align-items: center;
 }
 
 .navbar .right a{
@@ -36,6 +37,58 @@ body {
 .navbar .right .sign-up{
     background-color: rgb(108, 71, 230);
     color: white;
-    padding: 5px;
+    width: max-content;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.header .top-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .mid-head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.header .mid-head h1{
+    color: rgb(59, 59, 59);
+    width: max-content;
+}
+
+.header .mid-head p{
+    color: rgb(99, 99, 99);
+}
+
+.header .mid-head a{
+    background-color: rgb(108, 71, 230);
+    color: white;
+    width: max-content;
+    padding: 8px;
+    padding-inline: 30px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.bottom-head{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.bottom-head div i{
+color: rgb(130, 130, 130);
 }
 
