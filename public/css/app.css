@@ -251,7 +251,8 @@ body {
   text-align: center;
 }
 
-.footer-signin { /* fixed class name */
+.footer-signin {
+  /* fixed class name */
   width: 50%;
   text-align: left;
 }
