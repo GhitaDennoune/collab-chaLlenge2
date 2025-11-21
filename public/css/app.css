@@ -12,7 +12,7 @@ body {
 
 .navbar {
   display: flex;
-  padding-inline: 150px;
+  padding-inline: 20px; /* fixed for mobile */
   padding-top: 20px;
   justify-content: space-between;
   align-items: center;
@@ -76,8 +76,7 @@ body {
   background-color: rgb(108, 71, 230);
   color: white;
   width: max-content;
-  padding: 8px;
-  padding-inline: 30px;
+  padding: 8px 30px;
   border-radius: 6px;
   text-decoration: none;
 }
@@ -85,42 +84,41 @@ body {
 .bottom-head {
   padding-top: 30px;
   display: flex;
-  gap: 50px;
+  gap: 20px; /* fixed */
 }
 
 .bottom-head div i {
   color: rgb(130, 130, 130);
 }
 
-
-
-
-.last-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 140px;
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 140px;
 }
 
-.last-left{
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-    align-items: center;
+.last-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
 }
 
-.client , .servers, .feedback{
-    display: flex;
-    column-gap: 15px;
+.client,
+.servers,
+.feedback {
+  display: flex;
+  column-gap: 15px;
 }
 
-.text{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
-/*landing page css*/
+/* landing page */
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -172,142 +170,125 @@ body {
   font-weight: 600;
 }
 
-/*section 2 ghita */
-.data{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 50px;
-    padding-top: 50px;
-    background-color: rgb(237, 242, 255);
-    margin-top: 30px;
-    padding-bottom: 50px;
+/* data section */
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  padding-top: 50px;
+  background-color: rgb(237, 242, 255);
+  margin-top: 30px;
+  padding-bottom: 50px;
 }
 
-.top-data{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.top-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.bottom-data{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding-inline: 150px;
-    gap: 50px;
+.bottom-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-inline: 150px;
+  gap: 50px;
 }
 
-.full{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    align-items: center;
-    justify-content: center;
+.full {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-.full i{
-    display: flex;
-    background-color: rgb(233, 221, 255);
-    color: rgb(44, 44, 74);
-    height: 50px;
-    width: 50px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+.full i {
+  display: flex;
+  background-color: rgb(233, 221, 255);
+  color: rgb(44, 44, 74);
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*boost section Ghita */
+/* boost section */
 .boost {
   background-color: blueviolet;
   height: 55vh;
   text-align: center;
   color: white;
+}
 
-}
-.bossttop{
+.bossttop {
   padding-top: 70px;
- 
 }
+
 .bossttop p {
   padding-bottom: 80px;
   padding-top: 10px;
 }
-.number{
+
+.number {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 60px; /* fixed */
   padding-bottom: 60px;
-  
-  
 }
 
-
-/*footer section ghita */
+/* footer */
 .footer {
   background-color: rgb(222, 222, 222);
   height: 40vh;
-    height: 40vh;
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
   text-align: center;
 }
-.footer-signin {
+
+.footer-signin { /* fixed class name */
   width: 50%;
   text-align: left;
 }
+
 .final-button {
   margin-top: 20px;
- display: flex;
- flex-direction: column;
- align-items: center;
-  margin-top: 20px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.button2{
 
-   background-color: rgb(108, 71, 230);
+.button2 {
+  background-color: rgb(108, 71, 230);
   color: white;
-width: 250px;
-  padding: 8px;
-  padding-inline: 30px;
+  width: 250px;
+  padding: 8px 30px;
   border-radius: 6px;
   margin-top: 10px;
 }
-.final-button input{
- padding-inline: 30px;
+
+.final-button input {
   width: 250px;
-   padding: 8px;
+  padding: 8px 30px;
 }
+
 .links3 a {
   text-decoration: none;
   color: rgb(171, 160, 160);
 }
-.final h4{
-color: slateblue;
 
+.final h4 {
+  color: slateblue;
 }
-.final{
+
+.final {
   padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
