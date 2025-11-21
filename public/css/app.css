@@ -39,7 +39,18 @@ body {
     padding: 5px;
 }
 
-.table{
-    display: grid;
-    
+.part1{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+height: 110vh;
+}
+.welcome{
+text-align: center;
+
+}
+.welcome h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
