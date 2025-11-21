@@ -267,141 +267,40 @@ body {
 }
 
 /*section 2 ghita */
-.part1 {
-  margin-top: 50px;
-  background-color: rgb(224, 224, 224);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  gap: 80px;
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    padding-top: 50px;
 }
 
-.welcome {
-  text-align: center;
-  width: 700px;
-
+.top-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.welcome h3 {
-  padding-top: 50px;
-  padding-bottom: 20px;
+.bottom-data{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-inline: 150px;
+    gap: 50px;
 }
 
-.table {
-  width: 100%;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 70px;
-  padding-inline: 240px;
-
-
-}
-
-.colom1,
-.colom2,
-.colom3,
-.colom4,
-.colom5,
-.colom6 {
-  width: 300px;
-  text-align: center;
-
-
-}
-
-.colom1,
-.colom2,
-.colom3 i {
-
-  padding-top: 50px;
 
 
 
-}
 
-.colom1,
-.colom2,
-.colom3,
-.colom4,
-.colom5,
-.colom6 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
 
-.colom1 i {
-  background-color: rgb(210, 209, 209);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 46);
 
-}
 
-.colom2 i {
-  background-color: rgb(210, 209, 209);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 46);
-}
 
-.colom3 i {
-  background-color: rgb(210, 209, 209);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 46);
-  font-size: 20px;
-  box-sizing: border-box;
-}
 
-.colom4 i {
-  background-color: rgb(210, 209, 209);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 46);
-}
 
-.colom5 i {
-  background-color: rgb(210, 209, 209);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 46);
-}
 
-.colom6 i {
-  background-color: rgb(210, 209, 209);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 46);
-}
+
 
 /*boost section Ghita */
 .boost {
